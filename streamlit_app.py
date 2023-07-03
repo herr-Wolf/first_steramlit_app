@@ -1,3 +1,3 @@
 import streamlit
 
-streamlit.tittle('Mani Yuvi')
+streamlit.title('Mani Yuvi')
