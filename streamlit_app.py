@@ -1,1 +1,3 @@
-print("Hi Yuvi")
+import streamlit
+
+streamlit.tittle('Mani Yuvi')
