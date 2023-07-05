@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 import requests
+import snowflake.connector
 
 streamlit.title('Mani Yuvi')
 streamlit.header('Breakfast Menu')
@@ -15,3 +16,5 @@ streamlit.dataframe(my_fruit_list)
 api_res = requests.get('https://fruityvice.com/api/fruit/all')
 streamlit.text(api_res.json())
 streamlit.dataframe(pandas.json_normalize(api_res.json()))
+
+
